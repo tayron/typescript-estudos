@@ -56,3 +56,7 @@ cart = {
 let message2 = "mensagem definida"
 // message2 = 2
 message2 = "string novb"
+
+window.addEventListener("click", (e) => {
+    console.log(e.target)
+})
