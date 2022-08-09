@@ -3,7 +3,7 @@
 // PlayerInfo
 
 type AccountInfo = {
-    id: number;
+    id: number | string;
     name: string;
     email?: string; // Email é opcional bastando usar (?)
 }
@@ -28,7 +28,7 @@ const char: CharInfo = {
 // PlayerInfo fazendo interceção (&) - composição
 type PlayerInfo = AccountInfo & CharInfo 
 
-const player : PlayerInfo = {
+const player: PlayerInfo = {
     id: 123,
     name: "tayron",
     nickname: "Kayzen",
