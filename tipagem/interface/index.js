@@ -29,3 +29,12 @@ var CreateGame = /** @class */ (function () {
     }
     return CreateGame;
 }());
+var GameColletion = /** @class */ (function () {
+    function GameColletion() {
+    }
+    return GameColletion;
+}());
+var $ = {
+    a: "bla",
+    b: "ble"
+};

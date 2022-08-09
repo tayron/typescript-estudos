@@ -27,6 +27,7 @@ const char: CharInfo = {
 // Intersection
 // PlayerInfo fazendo interceção (&) - composição
 type PlayerInfo = AccountInfo & CharInfo 
+type PlayerInfo2 = AccountInfo & CharInfo & {info: string}
 
 const player: PlayerInfo = {
     id: 123,

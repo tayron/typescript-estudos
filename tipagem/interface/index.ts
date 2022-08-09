@@ -44,9 +44,39 @@ class CreateGame implements InterfaceGame {
     description: string;
     genre: string;
 
-    constructor (title: string, description: string, genre: string) {
-        this.title= title;
-        this.description= description;
-        this.genre= genre;
-    }    
+    constructor(title: string, description: string, genre: string) {
+        this.title = title;
+        this.description = description;
+        this.genre = genre;
+    }
+}
+
+interface InterfaceGameColletion extends InterfaceGame, InterfaceDLC {
+
+}
+
+class GameColletion implements InterfaceGameColletion {
+    id?: string | number | undefined;
+    title: string;
+    description: string;
+    genre: string;
+    platform?: string[] | undefined;
+    getSimilars?: ((title: string) => void) | undefined;
+    originalGame: InterfaceGame;
+    newContent: string[];
+}
+
+// Interface com mesmo nome são mergiadas
+// Ao criar biblioteca crie interface por permitir extensão
+interface JQuery {
+    a: string
+}
+
+interface JQuery {
+    b: string
+}
+
+const $: JQuery = {
+    a: "bla",
+    b: "ble"
 }
