@@ -1,7 +1,7 @@
 # TYPE SCRIPT
 
 
-[Willian Justen - Vídeo aula](https://www.youtube.com/watch?v=rxpycPZnT6I&list=PLlAbYrWSYTiPanrzauGa7vMuve7_vnXG_&index=9)
+[Willian Justen - Vídeo aula](https://www.youtube.com/watch?v=PMhd1ebCGl8&list=PLlAbYrWSYTiPanrzauGa7vMuve7_vnXG_&index=11)
 
 ## Para copilar arquivos javascript
 ```sh
